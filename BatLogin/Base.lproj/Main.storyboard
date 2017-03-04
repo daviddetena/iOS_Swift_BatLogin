@@ -47,10 +47,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="0Za-mE-v1A">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="25q-rH-Uro" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="25q-rH-Uro" customClass="LoginViewController" customModule="BatLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iv0-jt-Ua1"/>
                         <viewControllerLayoutGuide type="bottom" id="twc-e6-2D7"/>
@@ -130,6 +130,15 @@
                             <constraint firstItem="MjK-kZ-8MD" firstAttribute="top" secondItem="iv0-jt-Ua1" secondAttribute="bottom" constant="50" id="sYv-SN-oDc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnEnter" destination="4e0-6Z-Ogm" id="KAx-Ma-r9S"/>
+                        <outlet property="imgBatLogin" destination="LSK-aV-xq2" id="H6N-8D-T1F"/>
+                        <outlet property="imgLogoBatman" destination="MjK-kZ-8MD" id="9bT-d5-yrQ"/>
+                        <outlet property="labelPass" destination="ms7-GR-lkG" id="yLI-7s-zny"/>
+                        <outlet property="labelUser" destination="l7u-Sk-uKf" id="GdN-jm-AeO"/>
+                        <outlet property="textPass" destination="OpK-Ag-C86" id="2De-3P-phJ"/>
+                        <outlet property="textUser" destination="gBh-4K-Q5Q" id="lRy-t4-fR6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZ3-pJ-jUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
